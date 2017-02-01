@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+
+html, body {
+    height: 100%;
+    background: #802020;
+}
+
+.clr {
+    clear: both;
+}
+
+.main {
+    background: #802020;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+    background: #4169e1;
+}
+
+
+.photo-cls {
+    text-align: center;
+    width: auto;
+    padding: 0 135px 0 135px;
+    float: left;
+}
+
+@media (max-width: 1500px) {
+    .photo-cls {
+        text-align: center;
+        width: auto;
+        padding: 0 60px 0 60px;
+        float: left;
+    }
+}
+
+@media (max-width: 700px) {
+    .photo-cls {
+        width: 15%;
+        padding: 0;
+        float: left;
+    }
+
+    .events-photo {
+        text-align: center;
+        width: 50%;
+        float: left;
+        margin: 60px 0 10px 0;
+    }
+}
+
+.menu {
+    background: url(../images/bcg-menu.jpg) top repeat-x;
+    display: table-row;
+}
+
+    .menu li {
+        display: table-cell;
+        background: url(../images/menu-bg-light.png) center top repeat-x;
+        width: 1000px;
+        text-align: center;
+        height: 50px;
+        vertical-align: bottom;
+    }
+
+        .menu li a {
+            display: block;
+            width: 1000px;
+            height: 50px;
+            vertical-align: middle;
+            display: table-cell;
+            font: 14px Verdana, Geneva, sans-serif;
+            color: #fff;
+            text-decoration: none;
+        }
+
+            .menu li a.actived {
+                background: rgba(192,192,192,0.8) !important;
+            }
+
+        .menu li:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        .menu li a:hover {
+            color: #000;
+        }
+
+.biography, .about-us {
+    width: 100%;
+    padding: 10px 100px 10px 100px;
+}
+
+.about-us {
+    margin: 50px auto;
+    color: #fff;
+    font-size: 18px;
+    text-align: justify;
+}
+
+    .about-us h1, h2 {
+        text-align: center;
+    }
+
+    .about-us h3 {
+        text-align: center;
+        padding: 20px 0 10px 0;
+        line-height: 1.6;
+    }
+
+    .about-us p {
+        text-indent: 40px;
+    }
+
+.eventt {
+    width: 70%;
+    height:100%;
+    display: block;
+    /*height: auto;*/
+    margin: 0 auto;
+    padding: 30px 250px 40px 250px;
+}
+
+.biography {
+    text-align: justify;
+    color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+}
+
+    .biography b {
+        float: right;
+        font-size: 30px;
+    }
+
+    .biography h4 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .biography h3 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .biography span {
+        font-size: 18px;
+        padding: 0 !important;
+        float: right;
+    }
+
+    .biography p {
+        /*text-indent: 40px;*/
+        margin: 30px 0;
+    }
+
+.product-index span {
+    color: #fff;
+    font: 30px Candara;
+}
+
+.product-index {
+    color: #fff;
+}
+
+.img-area-top {
+    height: 40px;
+}
+
+.header-photo, .home-photo {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.home-photo {
+    padding: 10px 50px 10px 50px;
+}
+
+.contact-photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-img {
+    border-radius: 450px 450px 450px 450px;
+    width: 60%;
+    height: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media(max-width:600px) {
+    .contact-img {
+        border-radius: 450px 450px 450px 450px;
+        width: 100%;
+        float: right;
+        margin: 0 auto;
+    }
+}
+
+.conta-img, .about-img {
+    width: 50%;
+    display: block;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    margin: 0 auto;
+}
+
+.about-img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact-photo-container {
+    overflow: hidden;
+    text-align: center;
+}
+
+.content-photo {
+    min-width: 880px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.gallery-content {
+    max-width: 1300px;
+    min-width: 850px;
+}
+
+.img-container {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 520px;
+    text-align: center;
+}
+
+.img-holder {
+    display: block;
+    width: 575px;
+    height: 430px;
+    margin: 20px auto;
+    background: #4169e1;
+}
+
+.img-entry {
+    display: inline-block;
+    width: 555px;
+    height: 421px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+    .img-entry img {
+        width: 100%;
+        height: 100%;
+    }
+/*             long                   */
+
+.img-holder_long {
+    display: block;
+    width: 324px;
+    height: 430px;
+    margin: 20px auto;
+    background: #4169e1;
+}
+
+.img-entry_long {
+    display: inline-block;
+    width: 314px;
+    height: 421px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+    .img-entry_long img {
+        width: 100%;
+        height: 100%;
+    }
+/*--------------------------------------------------------*/
+.events-photo {
+    text-align: center;
+    width: 33%;
+    float: left;
+    margin: 20px 0 40px 0;
+}
+
+@media (min-width: 1400px) {
+    .gallery-content {
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .biography, p {
+        font-size: 12px;
+    }
+
+    .about-us {
+        font-size: 12px;
+        display: block;
+    }
+
+    .gallery-content {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .img-container {
+        display: block;
+        float: left;
+        width: 100%;
+        height: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }    
+    .img-holder {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 20px auto;
+        background: #4169e1;
+    }
+
+    .img-entry, .events-photo {
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    .eventt {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 30px 250px 40px 250px;
+    }
+}
+
+.footer {
+    text-align: center;
+    background: #4169e1;
+    overflow: hidden;
+    color: rgba(255,255,255,0.7);
+    padding: 10px;
+}
